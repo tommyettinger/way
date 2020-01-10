@@ -14,6 +14,8 @@
  * limitations under the License.
  ******************************************************************************/
 
+package com.github.tommyettinger.way;
+
 import com.badlogic.gdx.Gdx;
 
 /** @author davebaol */

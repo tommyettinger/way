@@ -25,12 +25,12 @@ package com.github.tommyettinger.way;
 public interface Connection<N> {
 
 	/** Returns the non-negative cost of this connection */
-	public float getCost ();
+	float getCost ();
 
 	/** Returns the node that this connection came from */
-	public N getFromNode ();
+	N getFromNode ();
 
 	/** Returns the node that this connection leads to */
-	public N getToNode ();
+	N getToNode ();
 
 }
